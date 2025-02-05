@@ -64,4 +64,12 @@
     <Build Include="schema2\Tables\Table4.sql" />
     <Build Include="Security\schema2.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Database1\Database1.sqlproj">
+      <Name>Database1</Name>
+      <Project>{2d371252-b997-4e78-9469-e84fc8f1525d}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
